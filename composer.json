@@ -1,0 +1,13 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^2.2",
+        "phroute/phroute": "^2.1",
+        "illuminate/database": "*",
+        "doctrine/dbal": "~2.4",
+        "philo/laravel-blade": "3.*"
+    },
+    "autoload": {
+        "classmap": ["framework/", "app/"],
+        "files": ["framework/helpers.php"]
+    }
+}
